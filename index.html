@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neetcode</title>
+    <link rel="shortcut icon" href="./images/neetcode-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+<div class="hero-section">
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="./images/neetcode-logo.png" alt="">
+                <a href="#course">Course</a>
+                <a href="#practice">Practise</a>
+                <a href="#roadmap">Roadmap</a>
+        </div>
+        <div class="navbar-right">
+<button class="btn-first">pro</button>
+<button class="btn-second">Sign in</button>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="hero-left">
+<h1>NeetCode</h1>
+<h3>A better way to prepare for coding interviews.</h3>
+<a href="#getpro">Get Pro</a>
+        </div>
+        <div class="hero-right">
+<img src="./images/roadmap.png" alt="">
+        </div>
+    </div>
+</div>
+
+<!-- below hero-section -->
+<div class="container">
+    <div class="inner-container">
+        <h2 style="color: white; text-align: center; font-size: 2.2rem; font-weight: 500;">Release Notes</h2>
+        <ol>
+            <li><a href="#">Feb 7 2024 - Published 15 Machine Learning coding questions.</a></li>
+            <li><a href="#">Jan 16 2024 - Published Topological Sort coding question.</a></li>
+            <li><a href="#">Jan 8 2024 - Updates to /problems page: added submissions history tab, added output tab within console, and added diff viewer for failed test cases.</a></li>
+            <span class="textvisible">
+            <li><a href="#">Dec 20 2023 - Added tags to filter problems on the basics tab of the /practice page.</a></li>
+            <li><a href="#">Dec 13 2023 - Published Matrix DFS and Matrix BFS coding questions.</a></li>
+            <li><a href="#">Nov 16 2023 - Published Design Patterns course along with 8 design pattern coding questions.</a></li>
+            <li><a href="#">Nov 13 2023 - Added C# support for coding questions on the basics tab of the /practice page.</a></li>
+            <li><a href="#">Sep 11 2023 - Added two more lessons to Object-Oriented Design Interview course.</a></li>
+            <li><a href="#">Sep 2 2023 - Added code judge and published coding questions on the basics tab of the /practice page.</a></li>
+            <li><a href="#">Jul 26 2023 - Published articles for System Design for Beginners course.</a></li>
+            <li><a href="#">Jul 17 2023 - Published Full Stack Development course.</a></li>
+            <li><a href="#">May 6 2023 - Added algorithm related quizzes to the /practice page.</a></li>
+            <li><a href="#">Mar 23 2023 - Published articles for Advanced Algorithms course.</a></li>
+            <li><a href="#">Feb 13 2023 - Published articles for Algorithms & Data Structures for Beginners course.</a></li>
+            <li><a href="#">Feb 6 2023 - Published Object-Oriented Design Interview course.</a></li>
+            <li><a href="#">Dec 22 2022 - Added NeetCode 150 roadmap on /roadmap page.</a></li>
+        </span>
+        </ol>
+        <h4 style="text-align: center; font-size: 15px; color: white; text-decoration: underline; cursor: pointer;" class="container-link" onclick="showmore()">Show more</h4> 
+    </div>
+</div>
+
+<!-- course section -->
+
+
+<div class="course-section">
+    <h2>COURSES</h2>
+    <div class="cards-section1">
+        <div class="card card1">
+            <img src="./images/img1.avif" alt="">
+            <h2>Algorithms & Data Structures for Beginners</h2>
+            <p>Learn the foundations of coding interviews.</p>
+            <div class="btn">
+                <a href="#">8.5 hours</a>
+                <a href="#" style="background-color: rgba(77, 255, 0, 0.666);">Easy</a>
+            </div>
+        </div>
+        <div class="card card2">
+            <img src="./images/img2.avif" alt="">
+            <h2>Advanced Algorithms</h2>
+            <p>Learn every algorithm you would ever need.</p>
+            <div class="btn">
+                <a href="#">8 hours</a>
+                <a href="#" style="background-color: rgba(255, 0, 0, 0.61);">Hard</a>
+            </div>
+        </div>
+        <div class="card card3">
+            <img src="./images/img3.avif" alt="">
+            <h2>System Design for Beginners</h2>
+            <p>Learn the foundations of system design interviews.</p>
+            <div class="btn">
+                <a href="#">6 hours</a>
+                <a href="#" style="background-color: rgba(183, 255, 0, 0.636);">Medium</a>
+            </div>
+        </div>
+        <div class="card card4">
+            <img src="./images/img4.avif" alt="">
+            <h2>System Design Interview</h2>
+            <p>Learn common system design interview questions.</p>
+            <div class="btn">
+                <a href="#">4.5 hours</a>
+                <a href="#" style="background-color: rgba(208, 255, 0, 0.527);">Medium</a>
+            </div>
+        </div>
+    </div>
+    <div class="cards-section2">
+        <div class="card card1">
+            <img src="./images/img5.avif" alt="">
+            <h2>Full Stack Development</h2>
+            <p>Learn how to build an intermediate full stack app.</p>
+            <div class="btn">
+                <a href="#">5.5 hours</a>
+                <a href="#" style="background-color: rgba(208, 255, 0, 0.527);">Medium</a>
+            </div>
+        </div>
+        <div class="card card2">
+            <img src="./images/img6.avif" alt="">
+            <h2>Object Oriented Design Interviews</h2>
+            <p>Learn Object Oriented Design interview questions.</p>
+            <div class="btn">
+                <a href="#">2.5 hours</a>
+                <a href="#" style="background-color: rgba(208, 255, 0, 0.527);">Easy</a>
+            </div>
+        </div>
+        <div class="card card3">
+            <img src="./images/img7.avif" alt="">
+            <h2>Object Oriented Design Patterns</h2>
+            <p>Learn & implement common coding design patterns.</p>
+            <div class="btn">
+                <a href="#">2.5 hours</a>
+                <a href="#" style="background-color: rgba(13, 255, 0, 0.651);">Easy</a>
+            </div>
+        </div>
+    </div>
+    <h2>And many more courses coming soon!</h2>
+</div>
+
+<!-- Lessons -->
+
+<div class="lesson-section">
+<h1>LESSON</h1>
+<div class="lesson-cards1">
+    <div class="lesson-card">
+<img src="./images/public1.avif" alt="">
+<h2>Python for coding</h2>
+<h2>interviews</h2>
+    </div>
+    <div class="lesson-card">
+        <img src="./images/public2.avif" alt="">
+        <h2>Python for coding</h2>
+        <h2>interviews</h2>
+    </div>
+    <div class="lesson-card">
+        <img src="./images/public3.avif" alt="">
+        <h2>Python for coding</h2>
+        <h2>interviews</h2>
+    </div>
+    <div class="lesson-card">
+        <img src="./images/public4.avif" alt="">
+        <h2>Python for coding</h2>
+        <h2>interviews</h2>
+    </div>
+    
+    <!-- <div class="lesson-card2"> -->
+        <div class="lesson-cardpart2">
+    <div class="lesson-card">
+        <img src="./images/public5.avif" alt="">
+        <h2>Python for coding</h2>
+        <h2>interviews</h2>
+    </div>
+    <div class="lesson-card">
+        <img src="./images/public6.avif" alt="">
+        <h2>Python for coding</h2>
+        <h2>interviews</h2>
+    </div>
+    <div class="lesson-card">
+        <img src="./images/public7.avif" alt="">
+        <h2>Python for coding</h2>
+        <h2>interviews</h2>
+    </div>
+    </div>
+
+<!-- </div> -->
+
+    </div>
+</div>
+
+
+
+
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
